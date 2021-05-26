@@ -1,0 +1,39 @@
+:root {
+  /* ### Primary */
+
+  --Moderate-violet: hsl(263, 55%, 52%);
+  --Very-dark-grayish-blue: hsl(217, 19%, 35%);
+  --Very-dark-blackish-blue: hsl(219, 29%, 14%);
+  --White: hsl(0, 0%, 100%);
+
+  /* ### Neutral */
+
+  --Light-gray: hsl(0, 0%, 81%);
+  --Light-grayish-blue: hsl(210, 46%, 95%);
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  background-color: #edf2f8;
+}
+.bg-violet {
+  background: var(--Moderate-violet);
+  background-image: url("./images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position: 90% 0%;
+}
+.bg-grayish {
+  background: var(--Very-dark-grayish-blue);
+}
+.bg-white {
+  background: var(--White);
+}
+.bg-blackish-blue {
+  background: var(--Very-dark-blackish-blue);
+}
+.text-white {
+  color: var(--Light-grayish-blue);
+}
