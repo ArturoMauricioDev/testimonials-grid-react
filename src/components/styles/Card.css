@@ -31,3 +31,10 @@
   font-size: 13px;
   font-weight: 500;
 }
+
+@media (min-width: 1440px) {
+  .card{
+    max-width: none;
+    padding: 20px 18px;
+  }
+}
