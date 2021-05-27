@@ -19,6 +19,13 @@ body {
   font-family: "Barlow Semi Condensed", sans-serif;
   background-color: #edf2f8;
 }
+.button-container{
+  margin-top: 20px;
+  height: 36px;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
 .container-cards{
   padding: 70px 25px 25px;
   
@@ -46,6 +53,7 @@ body {
     body{
       height: 100vh;
   }
+  
   .container-cards{
       padding: 10vh 6vw 0;
       display: grid;
