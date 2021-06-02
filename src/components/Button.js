@@ -4,7 +4,7 @@ import './styles/Button.css'
 export default function Button(props) {
     return (
         <>
-            <button id={props.id}>{props.content}</button>   
+            <button id={props.id} onClick={props.click} type="button" disabled={props.disabled}>{props.content}</button>
         </>
     )
 }
